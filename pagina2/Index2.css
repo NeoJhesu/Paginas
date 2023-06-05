@@ -1,0 +1,189 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+  span{
+      color:#888888;
+}
+
+body {
+    background: #00011f;
+    color: white;
+}
+
+
+header{ display: flex;
+        padding: 15px;
+        align-items: center;
+      }
+
+
+
+.vectorh{
+        font-size: 25px; 
+        width: 30px;
+        height: 24px;
+              }
+.bi-twitter {
+            color: #1090F2;
+            font-size: 38px;
+}
+
+.explore {display: flex;
+          align-items: center;
+          width: 20vw;
+          gap: 30px;
+          padding-left: 45px;
+
+}
+
+.explore .inputtext {
+      border-radius: 21px; 
+      height:  50px; 
+      width: 240px;   
+      background: #7FCAFF14;
+      font-size: 25px;
+      color:#888888;
+      padding: 20px;
+      
+}
+
+.interaccion{
+             display: flex;
+             width: 55vw;
+             height: 3vh;
+             justify-content: end;
+             align-items: center;
+             flex-direction: row;
+             gap: 70px;
+             border-right: solid 3px #8888882E;
+             padding-right: 20px;
+}
+
+.home{display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      background-color: white;
+      color: black;
+      width: 168px;
+      height: 58px;
+      border-radius: 22px;
+      gap: 15px;
+}
+
+.campana{
+              position: relative;
+}
+
+.vectorcampana{
+               position: absolute;
+               top: -5px; 
+               left: 10px;
+               width: 20px;
+}
+
+.perfilheader{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 25vw;
+
+}
+
+.usuario{display: flex;
+         align-items: center;
+         justify-content: start; 
+         padding: 5px;
+         gap: 20px;
+         background-color: #7FCAFF14;
+         width: 230px;
+         height: 60px;
+         border-radius: 50px;
+}
+main{
+      display: flex;
+}
+
+.perfil {
+            display: flex;
+            flex-direction: column;
+            width: 22.8%;
+            height: 455px;
+            align-items: center;
+            background: #7FCAFF14;
+            margin: 20px;
+            border-radius: 21px;
+            gap: 20px;
+            text-align: center;
+      }
+.imagenjude{display: flex;
+            justify-content: center;
+            position: relative;
+            margin-bottom: 45px;
+}
+.perfil p {
+            width: 300px;
+}
+
+.perfil h3 {
+            color:#1090F2;
+}
+.jude{
+      position: absolute;
+      top: 50px;
+      }
+
+.alcanse{display: flex;
+         justify-content: center;
+         padding: 10px;
+         position: relative;
+}
+.seguidos{display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 35%;
+          gap: 20px;
+      }
+
+.linea1{
+        position: absolute;
+        top: 0px;
+      }
+.linea2{position: absolute;
+        bottom: 10px;
+        }
+.linea3{position: absolute;
+        bottom: 0px
+        }
+.sugerencias{
+             padding: 20px;
+             height: 320px;  
+
+}
+.nose{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      
+}
+.personas{display: flex;
+          flex-direction: column;
+          text-align:start;
+          width: 65%;
+          padding-left: 30px;
+}
+
+.follow{display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      color: black;
+      width: 102px;
+      height: 32px;
+      border-radius: 51px;
+      gap: 15px;
+}

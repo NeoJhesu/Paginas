@@ -38,7 +38,7 @@ header {display: flex;
       }
 
 
-header .titulo  {display: flex;
+header .titulo{display: flex;
                 align-items: center;
                 width: 50%;
                 gap: 20px;
@@ -152,6 +152,7 @@ header nav {display: flex;
           justify-content: center;
           gap: 20px;
           font-size: 25px;
+          margin: 100px;
           
 }
 
@@ -171,17 +172,16 @@ header nav {display: flex;
            align-items: center;
            border: 3px solid rgb(101, 132, 177); 
            border-radius: 20px;
-           padding-left: 100px;
-           padding-right: 100px;
-           width: 40%;
+           padding-left: 50px;
+           width: 45%;
 }
 
 .imgsapp1 {
-            width: 550px;
+            width: 600px;
 }
 
 .imgsapp2 {
-          width: 150px;
+           width: 200px;
 }
 
 .Botonpasarpagina {
